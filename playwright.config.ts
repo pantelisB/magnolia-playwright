@@ -46,7 +46,7 @@ export default defineConfig({
       
     
       //it might cause issues on github
-      args: ["--start-maximized"],
+      //args: ["--start-maximized"],
 
 
     },

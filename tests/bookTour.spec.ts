@@ -32,6 +32,9 @@ test('Search using the searchbox', async ({ page }) => {
 
   await pm.onBookTourPage().completemailingAddress("Thessaloniki","53200","United Kingdom", "Florina");
   await pm.onBookTourPage().clickNextButton();
+  //comment out this as it will fail on your machine
+  // as you need to create a test1.txt file
+  // or to change the path to yours
   await pm.onBookTourPage().uploadFile();
   await pm.onBookTourPage().confirmBookingLast();
   //comment out that as error message shouldnt be displayed
